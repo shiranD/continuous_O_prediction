@@ -17,7 +17,7 @@ data
              ├── train (a sentence per line)
              ├── test
              ├── valid
-             ├── train_pos (optional, each line corresponding POSs)
+             ├── train_pos (optional, each line of this file contains the corresponding POS tags)
              ├── test_pos
              └── valid_pos
 ```
@@ -28,9 +28,4 @@ embeddings
       (a line from an embedding file: 'the' <float> <float> ...)
       (don't forget to normalize vectors)
 ```
-To generate the embeddings there is an example for word2vec found in the *embeddings.sh* file
-
-
-  
- 
-  
+To generate the embeddings there is an example for word2vec found in the *embeddings.sh* file.
