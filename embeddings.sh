@@ -2,10 +2,6 @@
 set -x
 set -e
 
-#!/bin/bash
-set -x
-set -e
-
 # this is an example for generating word embeddigns with word2vec
 
 main=TBD # path to Shiran's main dir /home/groups/BedrickLab/shiran/gans/ 
