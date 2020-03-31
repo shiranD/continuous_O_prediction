@@ -28,7 +28,7 @@ embeddings
       (a line from an embedding file: 'the' <float> <float> ...)
       (don't forget to normalize vectors)
 ```
-To generate the embeddings of your like, 
+To generate the embeddings there is an example for word2vec found in the *embeddings.sh* file
 
 
   
