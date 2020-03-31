@@ -24,6 +24,3 @@ filename=${sets}/full
 
 # comment cat and uncomment sbatch after cat was run
 #sbatch --job-name word2vec ${traindir}/word2vec.sh ${filename} ${modelname} ${emdim} ${traindir}
-
-
-
