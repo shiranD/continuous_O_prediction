@@ -9,6 +9,7 @@ To use this repo:
 
 The input to training.sh is assuming the follwoing tree for training data:
 
+
 ```
 data
   ├── pos_pb_big (dataset name)
@@ -19,11 +20,15 @@ data
              ├── train_pos (optional, each line corresponding POSs)
              ├── test_pos
              └── valid_pos
+```
+if you go to [pubmed_dataset_prep](https://github.com/shiranD/pubmed_dataset_prep) you can build an appropriate training set for pubmed, or apply a few of the commands for a different dataset. 
+```
 embeddings
   ├── embedding method_dimension_dataset name ('w2v_50_pos_nyt_big')
       (a line from an embedding file: 'the' <float> <float> ...)
       (don't forget to normalize vectors)
 ```
+To generate the embeddings of your like, 
 
 
   
