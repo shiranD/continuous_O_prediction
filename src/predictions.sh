@@ -38,7 +38,7 @@ mkdir -p ${name}/preds
 mkdir -p ${name}/pos
 mkdir -p ${name}/results
 
-if [${core} == traditional ]
+if [ "${core}" == "traditional" ]
 then
   python ${src}/bl_predictions.py --name ${name}\
                                --data ${sets}/set_${SLURM_ARRAY_TASK_ID}/\
