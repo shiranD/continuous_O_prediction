@@ -19,4 +19,4 @@ modelname=$2
 emdim=$3
 traindir=$4
 
-python ${traindir}/w2v_generator.py --filename ${filename} --modelname ${modelname} --emdim ${emdim}
+python ${traindir}/word2vec.py --filename ${filename} --modelname ${modelname} --emdim ${emdim}
